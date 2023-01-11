@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
     new = {}
-    for (k, v) in a_dictionary:
+    for (k, v) in a_dictionary.items():
         new[k] = max(v)
         return new
